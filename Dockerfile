@@ -4,6 +4,7 @@ MAINTAINER Albert Giménez <albert.gimenez.morales@gmail.com>
 RUN apt-get install -y git
 
 RUN git clone https://github.com/apache/incubator-zeppelin.git /zeppelin
+RUN git checkout 758abc6886e1d1e062341cb23b5ac04b861c6578
 
 WORKDIR /zeppelin
 
